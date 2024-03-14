@@ -3,8 +3,8 @@ public class Player {
     private final static char humanPlayer = 'X';
     private final static char computerPlayer = 'O';
 
-    public Player(boolean human){
-        if (human){
+    public Player(Player player){
+        if (player){
             this.symbol = humanPlayer;
         }else{
             this.symbol = computerPlayer;
